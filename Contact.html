@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Icreatives Review</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+<!-- Menu Button -->
+<div class="menu-toggle" onclick="toggleMenu()">&#9776; Menu</div>
+
+<!-- Sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="logo" onclick="window.location.href='index.html'">Icreatives Review</div>
+  <ul>
+    <li onclick="window.location.href='index.html'">Home</li>
+    <li onclick="window.location.href='submissions.html'">Submissions</li>
+    <li onclick="window.location.href='Masthead.html'">Masthead</li>
+    <li onclick="window.location.href='about.html'">About</li>
+    <li onclick="window.location.href='contact.html'">Contact</li>
+    <li onclick="window.location.href='donate.html'">Donate</li>
+  </ul>
+</div>
+
+<!-- Main Content -->
+<h1>Contact Us</h1>
+
+<div class="container">
+  <p>We love hearing from you. Whether you're a writer, reader, or collaborator, feel free to reach out for inquiries, suggestions, or partnerships.</p>
+
+  <p><strong>Email:</strong> <a href="mailto:hello@icreativesreview.com">hello@icreativesreview.com</a></p>
+  <p><strong>Submissions Email:</strong> <a href="mailto:submissions@icreativesreview.com">submissions@icreativesreview.com</a></p>
+  <p><strong>General Inquiries:</strong> Available Monday to Friday, 9am – 6pm (GMT)</p>
+
+  <form>
+    <h3>Or send us a message directly:</h3>
+    <label>Name:</label>
+    <input type="text" placeholder="Your Name" required>
+
+    <label>Email:</label>
+    <input type="email" placeholder="Your Email" required>
+
+    <label>Message:</label>
+    <textarea rows="5" placeholder="Your message..." required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</div>
+
+<!-- Footer -->
+<footer>
+  &copy; 2025 Icreatives Review. All rights reserved.
+</footer>
+
+<script>
+  function toggleMenu() {
+    document.getElementById('sidebar').classList.toggle('active');
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submissions | Icreative Review Magazine</title>
+  <link rel="stylesheet" href="submissions.css">
+</head>
+<body>
+
+<!-- Menu Button -->
+<div class="menu-toggle" onclick="toggleMenu()">&#9776; Menu</div>
+
+<!-- Sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="logo" onclick="window.location.href='index.html'">Icreative Review Magazine</div>
+  <ul>
+    <li onclick="window.location.href='index.html'">Home</li>
+    <li onclick="window.location.href='submissions.html'">Submissions</li>
+    <li onclick="window.location.href='Masthead.html'">Masthead</li>
+    <li onclick="window.location.href='about.html'">About</li>
+    <li onclick="window.location.href='contact.html'">Contact</li>
+    <li onclick="window.location.href='donate.html'">Donate</li>
+  </ul>
+</div>
+
+<!-- Main Content -->
+<h1>Submissions</h1>
+
+<div class="container">
+  <p>We welcome submissions in the following categories:</p>
+  <ul>
+    <li><strong>Fiction:</strong> Up to 3,000 words</li>
+    <li><strong>Essays & Reviews:</strong> Up to 1,500 words</li>
+    <li><strong>Poetry:</strong> Up to 5 poems per submission</li>
+    <li><strong>Think Pieces:</strong> 800–1,500 words</li>
+  </ul>
+
+  <p>🔸 Simultaneous submissions are welcome — notify us if accepted elsewhere.</p>
+  <p>🔸 We do not accept work that promotes hate, racism, misogyny, or discrimination of any kind.</p>
+  <p>🔸 Only original, unpublished work.</p>
+
+  <h3>Send submissions via email to: 
+    <a href="mailto:icreativesmagazine@gmail.com">icreativesmagazine@gmail.com</a>
+  </h3>
+
+  <!-- Form -->
+  <form action="">
+    <h3>Or submit directly here:</h3>
+    <label>Name:</label>
+    <input type="text" placeholder="Your Name" required>
+
+    <label>Email:</label>
+    <input type="email" placeholder="Your Email" required>
+
+    <label>Message (Include title, genre, etc.):</label>
+    <textarea rows="5" placeholder="Your message..." required></textarea>
+
+     <label>Biography:</label>
+    <textarea rows="5" placeholder="Your biography..." required></textarea>
+
+    <label>Upload your file:</label>
+    <input type="file" required>
+
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<!-- Footer -->
+<footer>
+  &copy; 2025 Icreative Review Magazine. All rights reserved.
+</footer>
+
+<script>
+  function toggleMenu() {
+    document.getElementById('sidebar').classList.toggle('active');
+  }
+</script>
+
+</body>
+</html>

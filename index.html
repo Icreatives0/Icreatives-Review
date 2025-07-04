@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Icreative Review Magazine</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<!-- Menu Button -->
+<div class="menu-toggle" onclick="toggleMenu()">&#9776; Menu</div>
+
+<!-- Sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="logo" onclick="window.location.href='index.html'">Icreative Review Magazine</div>
+  <ul>
+    <li onclick="window.location.href='index.html'">Home</li>
+    <li onclick="window.location.href='submissions.html'">Submissions</li>
+    <li onclick="window.location.href='Masthead.html'">Masthead</li>
+    <li onclick="window.location.href='about.html'">About</li>
+    <li onclick="window.location.href='contact.html'">Contact</li>
+    <li>Donate</li>
+  </ul>
+</div>
+
+<!-- Hero Section -->
+<div class="hero">
+  <h1>Welcome to Icreative Review Magazine</h1>
+  <p>Discover essays, poems, reviews, and stories that inspire, challenge, and transform.</p>
+</div>
+
+<!-- Articles Section -->
+<section class="articles-section">
+  <h2>Latest Articles</h2>
+  <div class="articles-grid">
+    <!-- Article 1 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d" alt="Typewriter">
+      <div class="card-content">
+        <h3>The Language of Silence</h3>
+        <p>A powerful essay exploring how silence shapes our narratives and identities.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+
+    <!-- Article 2 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1527257413744-d4e2f1b9d6d9" alt="Books">
+      <div class="card-content">
+        <h3>5 Contemporary African Writers You Should Know</h3>
+        <p>A curated list celebrating fresh literary voices redefining the African narrative.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+
+    <!-- Article 3 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d" alt="Open Book">
+      <div class="card-content">
+        <h3>Poetry: Where My Mother Left Her Voice</h3>
+        <p>A moving poem about memory, lineage, and the language of home.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+
+    <!-- Article 4 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1491841651911-c44c30c34548" alt="Reading">
+      <div class="card-content">
+        <h3>Book Review: The Fire Next Time</h3>
+        <p>An incisive review of James Baldwin’s timeless work on race, identity, and resistance.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  &copy; 2025 Icreative Review Magazine. All rights reserved.
+</footer>
+
+<script>
+  function toggleMenu() {
+    document.getElementById('sidebar').classList.toggle('active');
+  }
+</script>
+
+</body>
+</html>
